@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class AzuredemoApplication {
 	
-	@GetMapping("/message")
+	@GetMapping("/")
 	 public String message()
 	 {
 		 return "your application successfully update in azure";
