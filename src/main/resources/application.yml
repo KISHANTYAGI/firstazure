@@ -1,0 +1,15 @@
+spring:
+   datasource:
+      url: jdbc:sqlserver://kishanaure.database.windows.net:1433;database=kishanazuredb;user=kishan_tyagi@kishanaure;password=Agra@123;encrypt=true;trustServerCertificate=false;hostNameInCertificate=*.database.windows.net;loginTimeout=30;
+      username: kishan_tyagi
+      password: Agra@123
+   jpa:
+      show-sql: true
+      hibernate:
+         ddl-auto: update
+   
+         
+server:
+   port: 8090
+   
+   
